@@ -15,12 +15,14 @@ function getCommand() {
 
 function execCommand() {
   childProcess.exec(command, (error, stdout) => {
+    console.clear();
     console.log(stdout);
 
     if (error !== null) {
       console.log(`error: ${error}`);
+      clearInterval(intervalID);
     }
   });
 }
 
-execCommand();
+const intervalID = setInterval(() => execCommand(), 100);
