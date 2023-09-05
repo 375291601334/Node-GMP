@@ -1,0 +1,22 @@
+{
+  "name": "node-gmp",
+  "version": "1.0.0",
+  "description": "NodeJS Global Mentoring Program 2023 Q3-Q4",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/375291601334/Node-GMP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/375291601334/Node-GMP/issues"
+  },
+  "homepage": "https://github.com/375291601334/Node-GMP#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
