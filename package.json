@@ -4,7 +4,8 @@
   "description": "NodeJS Global Mentoring Program 2023 Q3-Q4",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js"
+    "start": "nodemon ./index.js",
+    "task1": "nodemon ./customEventEmitter.js"
   },
   "repository": {
     "type": "git",
