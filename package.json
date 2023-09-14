@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./index.js",
-    "task1": "nodemon ./customEventEmitter.js"
+    "task1": "nodemon ./withTime.js"
   },
   "repository": {
     "type": "git",
