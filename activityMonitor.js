@@ -46,7 +46,7 @@ function logToFileEveryMinute(str) {
 }
 
 function logToFile(str) {
-  const fileName = 'activityMonitor.log';
+  const fileName = './assets/activityMonitor.log';
 
   fs.appendFile(fileName, str, (err) => {
     if (err) {
