@@ -4,7 +4,9 @@
   "description": "NodeJS Global Mentoring Program 2023 Q3-Q4",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js"
+    "start": "nodemon ./index.js",
+    "task1": "nodemon ./withTime.js",
+    "task2": "nodemon ./transformCsvToTxt.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/375291601334/Node-GMP#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
